@@ -1,21 +1,20 @@
-class defaultdemo{
-static byte b;
-static int i;
-static float f;
-static long l;
-static short s;
-static double d;
-static boolean bl;
-static char c;
-public static void main(String args[]){
-System.out.println("byte b:"+b);
-System.out.println("byte i:"+i);
-System.out.println("byte f:"+f);
-System.out.println("byte d:"+d);
-System.out.println("byte bl:"+bl);
-System.out.println("byte c:"+c);
-System.out.println("byte l:"+l);
-System.out.println("byte s:"+s);
+public class defaultdemo{
+static byte defaultbyte;
+static short defaultshort;
+static int defaultint;
+static long defaultlong;
+static char defaultchar;
+static float defaultfloat;
+static double defaultdouble;
+static boolean defaultboolean;
+public static void main(String[] args){
+System.out.println("default values of all primitive data types:");
+System.out.println("short",+defaultshort);
+System.out.println("int",+defaultint);
+System.out.println("long",+defaultlong);
+System.out.println("character",+defaultchar);
+System.out.println("float",+defaultfloat);
+System.out.println(double",+defaultdouble);
+System.out.println("boolean",+defaultboolean);
 }
 }
-
